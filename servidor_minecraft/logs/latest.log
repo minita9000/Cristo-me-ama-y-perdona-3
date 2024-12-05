@@ -321,3 +321,10 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [23:23:24] [Server thread/INFO]: Alexterminium issued server command: /quests editor
 [23:34:54] [Server thread/INFO]: Alexterminium issued server command: /kill *
 [23:34:54] [Server thread/INFO]: Alexterminium died
+[23:37:34] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/6753, uuid='ea103ab7-6308-4883-a3c5-3b46a7071e93', l='ServerLevel[world]', x=1334.50, y=-25.00, z=1838.50, cpos=[83, 114], tl=444, v=true] died: Skeletal Knight suffocated in a wall
+[23:41:40] [Server thread/INFO]: Alexterminium has made the advancement [Diamonds!]
+[23:44:32] [Server thread/INFO]: Alexterminium issued server command: /quest
+[23:44:42] [Server thread/INFO]: Alexterminium issued server command: /questadmin give Alexterminium
+[23:44:55] [Server thread/INFO]: Alexterminium issued server command: /quests list
+[23:45:11] [Async Chat Thread - #10/INFO]: [Not Secure] <Alexterminium> 3
+[23:45:26] [Server thread/INFO]: Alexterminium issued server command: /quests editor
