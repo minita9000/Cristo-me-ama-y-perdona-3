@@ -306,3 +306,16 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [23:12:33] [Server thread/INFO]: Alexterminium issued server command: /quest
 [23:12:37] [Server thread/INFO]: Alexterminium issued server command: /quest Catch Fish
 [23:13:19] [Server thread/INFO]: Alexterminium issued server command: /quest Mob Hunter
+[23:16:40] [Server thread/INFO]: Alexterminium issued server command: /quest Mob Hunter
+[23:16:50] [Server thread/INFO]: Alexterminium issued server command: /questadmin finish Alexterminium
+[23:17:08] [Server thread/INFO]: Alexterminium issued server command: /questadmin give Alexterminium Catch Fish
+[23:17:27] [Server thread/INFO]: Alexterminium issued server command: /questadmin finish Alexterminium Catch Fish
+[23:19:37] [Server thread/INFO]: Named entity UndeadTrickster['Undead Trickster'/4268, uuid='3c5bfece-b08e-4575-9ea1-2c2c3ce58c35', l='ServerLevel[world]', x=1197.46, y=72.00, z=503.70, cpos=[74, 31], tl=4618, v=true] died: Undead Trickster was shot by Alexterminium using [Auto9]
+[23:19:41] [Server thread/INFO]: Alexterminium has made the advancement [Cover Me with Diamonds]
+[23:22:19] [Server thread/INFO]: Alexterminium issued server command: /quest create
+[23:22:22] [Server thread/INFO]: Alexterminium issued server command: /quest create dw
+[23:22:24] [Server thread/INFO]: Alexterminium issued server command: /quest a
+[23:22:43] [Server thread/INFO]: Alexterminium issued server command: /createjail
+[23:22:49] [Server thread/INFO]: Alexterminium issued server command: /createjail lal
+[23:23:03] [Server thread/INFO]: Alexterminium issued server command: /quests:quests
+[23:23:24] [Server thread/INFO]: Alexterminium issued server command: /quests editor

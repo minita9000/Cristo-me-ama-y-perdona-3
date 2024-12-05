@@ -8,7 +8,7 @@ skills:
     xp: 0.0
   auraskills/agility:
     level: 0
-    xp: 21.0
+    xp: 60.2404
   auraskills/enchanting:
     level: 0
     xp: 0.0
@@ -25,8 +25,8 @@ skills:
     level: 0
     xp: 0.0
   auraskills/archery:
-    level: 0
-    xp: 91.0
+    level: 1
+    xp: 14.0
   auraskills/defense:
     level: 0
     xp: 0.0
