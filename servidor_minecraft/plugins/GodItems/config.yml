@@ -1,0 +1,323 @@
+goditems:
+  spawn_in_chest_chance: 10 # percentage
+  protect_items: true # whether goditems dropped on ground should be protected from burning or cactus(they will still despawn after a period of time)
+  monster_with_goditem_spawn_chance: 0 # percentage
+  show_enchantments: false # true -> you can see the enchantments of the items; false -> you can not
+  custom_textures: true # true -> textures on; false -> textures off
+  double_attack: false # true -> you can get the effect from God weapon if it is in your offhand
+  boss_spawn_chance: 10 # Chance to spawn a boss when spawning normal monster. We recommend setting spawn_in_chest and monster_with_goditem to 0
+  use_party_scoreboard: true # true-> you will see a sidebar scoreboard with all members of your party; false -> no scoreboard, view members with /party show (removes clashes with other plugins with scoreboards)
+crown_of_the_necromancer:
+  get_spawn_egg_chance: 1 # percentage
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.0 # higher the number bigger the chance to find that item
+the_might_of_the_thunder:
+  damage: 10
+  cooldown: 5 # seconds
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.0 # higher the number bigger the chance to find that item
+boots_of_leaping:
+  cooldown: 5 # seconds
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  jump: 2 # this determines the height of the jump
+  rarity: 1.0 # higher the number bigger the chance to find that item
+trickster_chestplate:
+  # cooldown: 1 #seconds -> to prevent spamming (spamming can cause loss of armor on slower connections) not finished
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.0 # higher the number bigger the chance to find that item
+gladiators_trident:
+  cooldown: 20 # seconds
+  stun_duration: 4 # seconds
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.0 # higher the number bigger the chance to find that item
+cursed_blade:
+  cooldown: 20 # seconds
+  duration_wither: 4 # seconds
+  duration_slow: 4 # seconds
+  duration_blind: 4 # seconds
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.0 # higher the number bigger the chance to find that item
+shield_of_the_unmovable:
+  cooldown: 5 # seconds
+  wall_blocks: 5 # blocks
+  duration: 5 # seconds
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.0 # higher the number bigger the chance to find that item
+firemage_wand:
+  basic_cooldown: 5 # seconds
+  fireball_cooldown: 5 # seconds
+  fireblast_cooldown: 10 # seconds
+  firecircle_cooldown: 15 # seconds
+  firecircle_radius: 6 # blocks
+  duration: 5 # seconds
+  fireball_strength: 3.0 # 4.0 equals tnt
+  rarity: 1.0 # higher the number bigger the chance to find that item
+knight_armor:
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.0 # higher the number bigger the chance to find that item
+defender_armor:
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.0 # higher the number bigger the chance to find that item
+armor_from_the_depths:
+  health_bonus: 10 # health points(2 equal 1 heart)
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.0 # higher the number bigger the chance to find that item
+besieger:
+  cooldown: 5 # seconds
+  explosion: 4 # strength(4 equal tnt explosion)
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.0 # higher the number bigger the chance to find that item
+trickster_bow:
+  teleport_cooldown: 10 # seconds
+  potion_cloud_cooldown: 5 # seconds
+  potion_cloud_duration: 5 # seconds
+  potion_cloud_radius: 3 # blocks
+  effect_duration: 5 # seconds
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.0 # higher the number bigger the chance to find that item
+druid_staff:
+  enemy_timer: 60 # seconds
+  range: 5 # blocks
+  slow_duration: 5 # seconds
+  ally_heal: 5 # seconds
+  heal: 5 # seconds
+  basic_cooldown: 5 # seconds
+  slow_cooldown: 5 # seconds
+  ally_heal_cooldown: 15 # seconds
+  heal_cooldown: 10 # seconds
+  rarity: 1.0 # higher the number bigger the chance to find that item
+hammer_of_the_underworld:
+  range: 3 # blocks
+  cooldown: 5 # seconds
+  push_strength: 1.5 # launch
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.0 # higher the number bigger the chance to find that item
+berzerker_axe:
+  cooldown: 5 # seconds
+  thrown_axe_damage: 10 # 2 = 1 heart
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.0 # higher the number bigger the chance to find that item
+blood_thirst:
+  cooldown: 5 # seconds
+  heal_from_lifesteal: 6 # 6 is equals to 3 hearts in game
+  damage_from_lifesteal: 4 # 4 is equals to 2 hearts in game
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.0 # higher the number bigger the chance to find that item
+draculas_armor:
+  bats_count: 10 # number of bats
+  cooldown: 5 # seconds
+  duration_at_day: 15 # seconds
+  duration_at_night: 30 # seconds
+  fire_ticks: 10 # if it is set to 5 the bats will not die from the fire
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.0 # higher the number bigger the chance to find that item
+masters_katana:
+  cooldown: 5 # seconds
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  damage_to_players: 10 # The damage that you are going to deal to players when dashing
+  damage_to_mobs: 20 # The damage that you are going to deal to mobs when dashing
+  rarity: 1.0 # higher the number bigger the chance to find that item
+hellstorm:
+  cooldown: 5 # seconds
+  barrage_cooldown: 10 # seconds
+  fire_rain_cooldown: 15 # seconds
+  fire_rain_count: 30 # number of arrows in fire rain
+  fire_rain_spread: 5 # spread of arrows in fire rain
+  fire_rain_vert: 20 # vertical displacement of spawned arrows
+  barrage_count: 15 # number of arrows in barrage
+  barrage_spread: 3.0 # spread of arrows in barrage(higher spread means more area is covered)
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.0 # higher the number bigger the chance to find that item
+dark_lord_armor:
+  pretender_timeout: 60 # seconds
+  logout_timeout: 1 # minutes
+  guard_count: 4 # wither skeletons to spawn(max 4)
+  guard_cooldown: 10 # seconds
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.0 # higher the number bigger the chance to find that item
+teleportation_wand:
+  rarity: 1.0 # higher the number bigger the chance to find that item
+dragon_wing:
+  cooldown: 20 # seconds
+  boost: 3.5 # boost strength (has to be greater than 1 to boost)
+  armour_bonus: 8 # armour points. 8 is equal to netherite armour
+  armour_toughness: 3 # armour toughness bonus. 3 is equal to netherite chestplate
+  knockback_resistance: 1 # knockback resistance bonus. 1 is equal to netherite armour
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.0 # higher the number bigger the chance to find that item
+ender_sceptre:
+  cooldown: 5 # seconds
+  targetRadius: 50 # blocks
+  endJumpBoost: 3 # set level of jump boost effect in the end
+  endSpeeedBoost: 3 # set level of speed boost in the end
+  rarity: 1.0 # higher the number bigger the chance to find that item
+dragon_fang:
+  cooldown: 10 # seconds
+  targetRadius: 20 # blocks
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.0 # higher the number bigger the chance to find that item
+dragon_scale:
+  count: 5 # how many items will the dragon drop when killed
+bomb:
+  max_explosives: 6 # max explosives contained in the item
+  explosive_strength: 4 # strength of the explosives. 4 equals tnt
+  place_cooldown: 5 # seconds
+  detonate_cooldown: 10 # seconds
+  basic_cooldown: 1 # seconds. cooldown between any uses of the item (to prevent spamming)
+  explosive_show_duration: 5 # seconds. How long will explosive be shown
+  rarity: 1.0 # higher the number bigger the chance to find that item
+parry_sword:
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.0 # higher the number bigger the chance to find that item
+  bonus_damage: 4.0 # The bonus damage a player is going to deal when the Parry Sword is in their off hand
+soul_bearer:
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.0 # higher the number bigger the chance to find that item
+haunted_pumpkin:
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.0 # higher the number bigger the chance to find that item
+haunted_chainmail:
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.0 # higher the number bigger the chance to find that item
+haunted_mob:
+  spawn_chance: 5 # higher the number higher the chance to spawn (max 100; min 1)
+sorcerer_robes:
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.0 # higher the number bigger the chance to find that item
+  cooldown: 10 # seconds
+  radius: 40 # blocks
+  count: 100 # meteor count
+  strength: 4 # 4 equals tnt
+ancient_pickaxe:
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.0 # higher the number bigger the chance to find that item
+  find_resources: 1 # percentage
+ancient_axe:
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.0 # higher the number bigger the chance to find that item
+frostbite:
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.0 # higher the number bigger the chance to find that item
+  cooldown: 10 # seconds
+  freeze_duration: 4 # seconds ( we recommend to be less than the cooldown )
+  spawn_stray: 10 # chance in percents to find a stray with frostbite for a weapon
+tome_of_ice:
+  unbreakable: true # true -> this item will be unbreakable; false -> this item can break
+  rarity: 1.0 # higher the number bigger the chance to find that item
+  cooldown: 10 # seconds
+  freeze_radius: 5 # within this radius all water will be frozen
+  shield_strength: 200 # total absorbed damage by energy shield
+  freeze_duration: 5 # seconds.  All entities that hit you when the ability is on will get freeze effect for this many seconds
+bosses:
+  highlight: true # highlights the bosses if you attack them or they attack you
+  drowned_knight:
+    health: 200 # 2 = 1 heart
+    damage: 10 # basic attack damage
+    air_damage: 4 # how much air 1 hit takes 1 = 1 bubble
+    duration_confusion: 15 # seconds
+    resistance: 3 # level of absorbtion when in water
+    cooldown: 10 # seconds
+    damage_ability: 10 # 2 = 1 heart
+    relative_spawn_rate: 1 # adjusts the spawn rate for this boss relative to the global boss spawn rate
+  
+  buried_warlord:
+    health: 200 # 2 = 1 heart
+    damage: 10 # basic attack damage
+    cooldown: 10 # seconds
+    guards: 4 # number of guards. Max of 4
+    relative_spawn_rate: 1 # adjusts the spawn rate for this boss relative to the global boss spawn rate
+  
+  dark_legionary:
+    health: 200 # 2 = 1 heart
+    damage: 10 # basic attack damage
+    cooldown: 10 # seconds
+    push_strength: 5 #
+    damage_ability: 15 # 2 = 1 heart
+    relative_spawn_rate: 1 # adjusts the spawn rate for this boss relative to the global boss spawn rate
+  
+  undead_trickster:
+    health: 200 # 2 = 1 heart
+    damage: 20 # basic attack damage
+    cooldown: 10 # seconds
+    effect_duration: 10 # seconds
+    relative_spawn_rate: 1 # adjusts the spawn rate for this boss relative to the global boss spawn rate
+  
+  ignus_sorcerer:
+    health: 300 # 2 = 1 heart
+    damage: 10 # basic attack damage
+    cooldown_basic: 10 # seconds
+    cooldown_guards: 30 # seconds
+    radius_fire_circle: 6 # blocks
+    strength_fireball: 4 # 4 = tnt explosion
+    duration: 5 # seconds to restore blocks
+    meteor_count: 50 # count of meteors in meteor shower
+    meteor_radius: 25 # radius of meteor shower
+    acolyte_cooldown: 10 # seconds
+    relative_spawn_rate: 1 # adjusts the spawn rate for this boss relative to the global boss spawn rate
+  
+  ignus_acolyte:
+    health: 200
+    heal_cooldown: 10 # seconds
+    heal_strength: 1 # amplifies the healing effect (range 1 - 3)
+  
+  cursed_swordmaster:
+    health: 200 # 2 = 1 heart
+    damage: 10 # basic attack damage
+    armor: 20 # base armor value
+    relative_spawn_rate: 1 # adjusts the spawn rate for this boss relative to the global boss spawn rate
+  
+  izor_necromancer:
+    health: 300 # 2 = 1 heart
+    damage: 20 # base attack damage
+    armor: 20 # base armor value
+    initial_cultists: 4 # number of dark cultists that will spawn with boss
+    base_raised_dead: 2 # base value of dead raised by ability. For every cultist present the number is increased by 1
+    cultist_detect_range: 15 # blocks
+    cooldown_basic: 30 # seconds
+    ability_duration: 10 # seconds
+    relative_spawn_rate: 1 # adjusts the spawn rate for this boss relative to the global boss spawn rate
+  
+  dark_cultist:
+    health: 200 # 2 = 1 heart
+    damage: 10 # base attack damage
+    armor: 20 # base armor
+    cooldown: 10 # seconds
+  
+  raised_dead:
+    health: 50 # 2 = 1 heart
+    damage: 10 # base attack damage
+    armor: 20 # base armor
+  
+  barbarian_berserker:
+    health: 200 # 2 = 1 heart
+    damage: 15 # base attack damage
+    armor: 20 # base armor
+    last_stand_cooldown: 30 # seconds
+    last_stand_duration: 10 # seconds
+    relative_spawn_rate: 1 # adjusts the spawn rate for this boss relative to the global boss spawn rate
+  
+  barbarian_champion:
+    health: 200 # 2 = 1 heart
+    damage: 15 # base attack damage
+    armor: 20 # base armor
+    cooldown: 10 # seconds
+    explosion_strength: 4 # 4 = tnt
+    summoned_units: 2 # count of vindicators summoned
+    relative_spawn_rate: 1 # adjusts the spawn rate for this boss relative to the global boss spawn rate
+  
+  barbarian_sapper:
+    health: 200 # 2 = 1 heart
+    damage: 15 # base attack damage
+    armor: 20 # base armor
+    explosion_strength: 4 # 4 equals tnt
+    cooldown: 10 # seconds
+    relative_spawn_rate: 1 # adjusts the spawn rate for this boss relative to the global boss spawn rate
+  
+  dark_elf:
+    health: 200 # 2 = 1 heart
+    damage: 15 # base attack damage
+    armor: 20 # base armor
+    cooldown: 10 # seconds
+    teleport: 10 # blocks
+    max_y_displacement: 5 # blocks
+    relative_spawn_rate: 1 # adjusts the spawn rate for this boss relative to the global boss spawn rate

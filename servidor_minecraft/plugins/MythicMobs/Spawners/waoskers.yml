@@ -1,0 +1,11 @@
+waoskers:
+  MobName: creeper
+  World: world
+  X: 1356
+  Y: 81
+  Z: 1785
+  Yaw: 0.0
+  Pitch: 0.0
+  MobLevel: '1'
+  Cooldown: 0
+  Warmup: 0

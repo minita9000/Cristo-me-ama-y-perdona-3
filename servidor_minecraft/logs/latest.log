@@ -1,0 +1,298 @@
+[22:55:37] [ServerMain/INFO]: Building unoptimized datafixer
+[22:55:38] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:55:39] [ServerMain/INFO]: Loaded 7 recipes
+[22:55:40] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[22:55:40] [Server thread/INFO]: Loading properties
+[22:55:40] [Server thread/INFO]: This server is running Paper version git-Paper-307 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: 476ef25)
+[22:55:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:55:40] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:55:41] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[22:55:41] [Server thread/INFO]: Default game type: SURVIVAL
+[22:55:41] [Server thread/INFO]: Generating keypair
+[22:55:41] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:55:42] [Server thread/INFO]: Using epoll channel type
+[22:55:42] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[22:55:42] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[22:55:43] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_19_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[22:55:46] [Server thread/WARN]: Legacy plugin HealthBar v1.1.1 does not specify an api-version.
+[22:55:46] [Server thread/ERROR]: Fatal error trying to convert Chunky v1.4.28:org/popcraft/chunky/ChunkyBukkit.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:199) ~[asm-9.3.jar:9.3]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.3.jar:9.3]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.3.jar:9.3]
+	at org.bukkit.craftbukkit.v1_19_R1.util.Commodore.convert(Commodore.java:171) ~[paper-1.19.2.jar:git-Paper-307]
+	at org.bukkit.craftbukkit.v1_19_R1.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:403) ~[paper-1.19.2.jar:git-Paper-307]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:200) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:592) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:129) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:124) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:71) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:153) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:411) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:319) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.loadPlugins(CraftServer.java:423) ~[paper-1.19.2.jar:git-Paper-307]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:278) ~[paper-1.19.2.jar:git-Paper-307]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1100) ~[paper-1.19.2.jar:git-Paper-307]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:305) ~[paper-1.19.2.jar:git-Paper-307]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[22:55:46] [Server thread/ERROR]: Could not load 'plugins/Chunky-Bukkit-1.4.28.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: org/popcraft/chunky/ChunkyBukkit has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:157) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:411) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:319) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.loadPlugins(CraftServer.java:423) ~[paper-1.19.2.jar:git-Paper-307]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:278) ~[paper-1.19.2.jar:git-Paper-307]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1100) ~[paper-1.19.2.jar:git-Paper-307]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:305) ~[paper-1.19.2.jar:git-Paper-307]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.UnsupportedClassVersionError: org/popcraft/chunky/ChunkyBukkit has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1017) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:592) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:129) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:124) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:71) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:153) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	... 7 more
+[22:55:46] [Server thread/ERROR]: Fatal error trying to convert KinglyBosses v3.0-ALPHA:kinglyfs/kinglybosses/KinglyBosses.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:199) ~[asm-9.3.jar:9.3]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.3.jar:9.3]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.3.jar:9.3]
+	at org.bukkit.craftbukkit.v1_19_R1.util.Commodore.convert(Commodore.java:171) ~[paper-1.19.2.jar:git-Paper-307]
+	at org.bukkit.craftbukkit.v1_19_R1.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:403) ~[paper-1.19.2.jar:git-Paper-307]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:200) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:592) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:129) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:124) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:71) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:153) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:411) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:319) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.loadPlugins(CraftServer.java:423) ~[paper-1.19.2.jar:git-Paper-307]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:278) ~[paper-1.19.2.jar:git-Paper-307]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1100) ~[paper-1.19.2.jar:git-Paper-307]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:305) ~[paper-1.19.2.jar:git-Paper-307]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[22:55:46] [Server thread/ERROR]: Could not load 'plugins/kinglybosses.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: kinglyfs/kinglybosses/KinglyBosses has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:157) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:411) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:319) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.loadPlugins(CraftServer.java:423) ~[paper-1.19.2.jar:git-Paper-307]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:278) ~[paper-1.19.2.jar:git-Paper-307]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1100) ~[paper-1.19.2.jar:git-Paper-307]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:305) ~[paper-1.19.2.jar:git-Paper-307]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.UnsupportedClassVersionError: kinglyfs/kinglybosses/KinglyBosses has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1017) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:592) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:129) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:124) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:71) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:153) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	... 7 more
+[22:55:46] [Server thread/ERROR]: Could not load 'plugins/Jobs5.2.4.5.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [CMILib]. Please download and install these plugins to run 'Jobs'.
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:287) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.loadPlugins(CraftServer.java:423) ~[paper-1.19.2.jar:git-Paper-307]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:278) ~[paper-1.19.2.jar:git-Paper-307]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1100) ~[paper-1.19.2.jar:git-Paper-307]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:305) ~[paper-1.19.2.jar:git-Paper-307]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[22:55:46] [Server thread/INFO]: [GodItems] Loading GodItems v2.2.0
+[22:55:46] [Server thread/INFO]: [voicechat] Loading voicechat v2.5.26
+[22:55:46] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.12+6240-87f4ae1
+[22:55:47] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@67cf83b2]
+[22:55:47] [Server thread/INFO]: [WorldEdit] Default configuration file written: config.yml
+[22:55:47] [Server thread/INFO]: [HealthBar] Loading HealthBar v1.1.1
+[22:55:47] [Server thread/INFO]: [Minepacks] Loading Minepacks v2.4.31.4-T20240629215752
+[22:55:47] [Server thread/INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
+[22:55:47] [Server thread/INFO]: [MythicMobs] Loading MythicMobs v5.4.1-${CI_COMMIT_SHORT_SHA}
+[22:55:47] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[22:55:47] [Server thread/INFO]: [MythicMobs] §4M§6y§6t§6h§2i§2c§2 §3E§3n§1a§1b§1l§5e§5d§4![0m
+[22:55:47] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.7
+[22:55:47] [Server thread/INFO]: [DropHeads] Loading DropHeads v3.9.9
+[22:55:47] [Server thread/INFO]: [MarriageMaster] Loading MarriageMaster v2.7.7-Release
+[22:55:47] [Server thread/INFO]: [MarriageMaster] PCGF-PluginLib not installed. Switching to standalone mode!
+[22:55:47] [Server thread/INFO]: [ServerSigns] Loading ServerSigns v4.9.0
+[22:55:47] [Server thread/INFO]: [DeadChest] Loading DeadChest v4.21.1
+[22:55:47] [Server thread/INFO]: [DeadChest] Worldguard support disabled by user
+[22:55:47] [Server thread/INFO]: [AuraSkills] Loading AuraSkills v2.2.6
+[22:55:47] [Server thread/INFO]: [Quests] Loading Quests v5.1.5-b512
+[22:55:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:55:47] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.12+6240-87f4ae1
+[22:55:47] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[22:55:47] [Server thread/INFO]: WEPIF: Updated config file
+[22:55:47] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[22:55:47] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[22:55:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:55:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:55:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:55:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:55:48] [Server thread/INFO]: Preparing level "world"
+[22:55:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:55:50] [Server thread/INFO]: Time elapsed: 251 ms
+[22:55:50] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[22:55:50] [Server thread/INFO]: Time elapsed: 55 ms
+[22:55:50] [Server thread/INFO]: [GodItems] Enabling GodItems v2.2.0
+[22:55:50] [Server thread/INFO]: [GodItems] Made by MitromniZ and Cros_bow
+[22:55:50] [Server thread/INFO]: true
+[22:55:50] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.26
+[22:55:50] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.19.2-R0.1
+[22:55:50] [Server thread/INFO]: [voicechat] Compatibility version 18
+[22:55:50] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[22:55:50] [Server thread/INFO]: [HealthBar] Enabling HealthBar v1.1.1*
+[22:55:50] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.4.31.4-T20240629215752
+[22:55:50] [Server thread/INFO]: [Minepacks] Starting Minepacks in standalone mode!
+[22:55:50] [Server thread/INFO]: [Minepacks] [32mConfig file successfully loaded.[0m
+[22:55:51] [Server thread/INFO]: [Minepacks] [32mLanguage file successfully loaded. Language: english  Author: GeorgH93[0m
+[22:55:51] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Starting...
+[22:55:51] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Start completed.
+[22:55:51] [Server thread/INFO]: [Minepacks] [32mItem name language file successfully loaded. Language: english  Author: GeorgH93[0m
+[22:55:51] [Server thread/INFO]: [Minepacks] Loading item translations ...
+[22:55:51] [Server thread/INFO]: [Minepacks] Finished loading item translations for 828 items.
+[22:55:51] [Server thread/INFO]: [Minepacks] [32m Minepacks has been enabled! [33m :) [0m
+[22:55:51] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.4.1-${CI_COMMIT_SHORT_SHA}
+[22:55:52] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.19.2)...[0m
+[22:55:52] [Server thread/INFO]: [MythicMobs] The server is running PaperSpigot; enabled PaperSpigot exclusive functionality[0m
+[22:55:54] [Server thread/INFO]: [MythicMobs] Base directory /workspaces/Cristo-me-ama-y-perdona-3/servidor_minecraft/plugins/MythicMobs/SavedData
+[22:55:54] [Server thread/INFO]: [MythicMobs] Module directory /workspaces/Cristo-me-ama-y-perdona-3/servidor_minecraft/plugins/MythicMobs/SavedData/worlds
+[22:55:56] [Server thread/INFO]: [MythicMobs] Loading Packs...[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] Loading Items...[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] Loading Item Groups...[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] Loading Skills...[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] Loading stat ATTACK_DAMAGE from /workspaces/Cristo-me-ama-y-perdona-3/servidor_minecraft/plugins/MythicMobs/stats.yml[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] Loading stat ATTACK_SPEED from /workspaces/Cristo-me-ama-y-perdona-3/servidor_minecraft/plugins/MythicMobs/stats.yml[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] Loading stat BONUS_DAMAGE from /workspaces/Cristo-me-ama-y-perdona-3/servidor_minecraft/plugins/MythicMobs/stats.yml[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] Loading stat CRITICAL_STRIKE_CHANCE from /workspaces/Cristo-me-ama-y-perdona-3/servidor_minecraft/plugins/MythicMobs/stats.yml[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] Loading stat CRITICAL_STRIKE_DAMAGE from /workspaces/Cristo-me-ama-y-perdona-3/servidor_minecraft/plugins/MythicMobs/stats.yml[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] Loading stat CRITICAL_STRIKE_RESILIENCE from /workspaces/Cristo-me-ama-y-perdona-3/servidor_minecraft/plugins/MythicMobs/stats.yml[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] Loading stat DAMAGE_REDUCTION from /workspaces/Cristo-me-ama-y-perdona-3/servidor_minecraft/plugins/MythicMobs/stats.yml[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] Loading stat DEFENSE from /workspaces/Cristo-me-ama-y-perdona-3/servidor_minecraft/plugins/MythicMobs/stats.yml[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] Loading stat DODGE_CHANCE from /workspaces/Cristo-me-ama-y-perdona-3/servidor_minecraft/plugins/MythicMobs/stats.yml[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] Loading stat DODGE_NEGATION from /workspaces/Cristo-me-ama-y-perdona-3/servidor_minecraft/plugins/MythicMobs/stats.yml[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] Loading stat HEALTH from /workspaces/Cristo-me-ama-y-perdona-3/servidor_minecraft/plugins/MythicMobs/stats.yml[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] Loading stat HEALTH_REGENERATION from /workspaces/Cristo-me-ama-y-perdona-3/servidor_minecraft/plugins/MythicMobs/stats.yml[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] Loading stat LIFESTEAL_CHANCE from /workspaces/Cristo-me-ama-y-perdona-3/servidor_minecraft/plugins/MythicMobs/stats.yml[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] Loading stat LIFESTEAL_POWER from /workspaces/Cristo-me-ama-y-perdona-3/servidor_minecraft/plugins/MythicMobs/stats.yml[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] Loading stat MOVEMENT_SPEED from /workspaces/Cristo-me-ama-y-perdona-3/servidor_minecraft/plugins/MythicMobs/stats.yml[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] Loading stat PARRY_CHANCE from /workspaces/Cristo-me-ama-y-perdona-3/servidor_minecraft/plugins/MythicMobs/stats.yml[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] Loading stat PARRY_NEGATION from /workspaces/Cristo-me-ama-y-perdona-3/servidor_minecraft/plugins/MythicMobs/stats.yml[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] Loading stat PARRY_POWER from /workspaces/Cristo-me-ama-y-perdona-3/servidor_minecraft/plugins/MythicMobs/stats.yml[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] Loading stat PARRY_COUNTERATTACK from /workspaces/Cristo-me-ama-y-perdona-3/servidor_minecraft/plugins/MythicMobs/stats.yml[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] Loading stat ARMOR_GENERIC from /workspaces/Cristo-me-ama-y-perdona-3/servidor_minecraft/plugins/MythicMobs/stats.yml[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] Loading stat ARMOR_BLUNT from /workspaces/Cristo-me-ama-y-perdona-3/servidor_minecraft/plugins/MythicMobs/stats.yml[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] Loading stat ARMOR_SHARP from /workspaces/Cristo-me-ama-y-perdona-3/servidor_minecraft/plugins/MythicMobs/stats.yml[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] Loading stat DAMAGE_BLUNT from /workspaces/Cristo-me-ama-y-perdona-3/servidor_minecraft/plugins/MythicMobs/stats.yml[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] Loading stat DAMAGE_SHARP from /workspaces/Cristo-me-ama-y-perdona-3/servidor_minecraft/plugins/MythicMobs/stats.yml[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] Loading stat FIRE_RESISTANCE from /workspaces/Cristo-me-ama-y-perdona-3/servidor_minecraft/plugins/MythicMobs/stats.yml[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] Loading stat SPEED from /workspaces/Cristo-me-ama-y-perdona-3/servidor_minecraft/plugins/MythicMobs/stats.yml[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 8 mobs.[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 3 skills.[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 3 mythic items.[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 2 drop tables.[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 1 mob spawners.[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics[0m
+[22:55:56] [Server thread/INFO]: [MythicMobs] [32m✓ MythicMobs v5.4.1 ( build ${CI_COMMIT_SHORT_SHA} ) has been successfully loaded![0m[0m
+[22:55:56] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.7
+[22:55:57] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[22:55:57] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[22:55:57] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[22:55:57] [Server thread/INFO]: [Essentials] Using locale en
+[22:55:57] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[22:55:57] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[22:55:57] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[22:55:57] [Server thread/INFO]: [DropHeads] Enabling DropHeads v3.9.9
+[22:55:57] [Server thread/INFO]: [MarriageMaster] Enabling MarriageMaster v2.7.7-Release
+[22:55:57] [Server thread/INFO]: [MarriageMaster] Starting Marriage Master in standalone mode!
+[22:55:57] [Server thread/INFO]: [MarriageMaster] [32mConfig file successfully loaded.[0m
+[22:55:57] [Server thread/INFO]: [MarriageMaster] [32mSuccessful linked with [33mMinepacks v2.4.31.4-T20240629215752[32m![0m
+[22:55:57] [Server thread/INFO]: [MarriageMaster] [32mLanguage file successfully loaded. Language: English  Author: GeorgH93[0m
+[22:55:57] [Server thread/INFO]: [at.pcgamingfreaks.MarriageMasterStandalone.libs.com.zaxxer.hikari.HikariDataSource] MarriageMaster-Connection-Pool - Starting...
+[22:55:57] [Server thread/INFO]: [at.pcgamingfreaks.MarriageMasterStandalone.libs.com.zaxxer.hikari.HikariDataSource] MarriageMaster-Connection-Pool - Start completed.
+[22:55:57] [Thread-12/INFO]: [MarriageMaster] Loading marriages ...
+[22:55:57] [Thread-12/INFO]: [MarriageMaster] Marriages loaded
+[22:55:57] [Thread-12/INFO]: [MarriageMaster] Loading priests ...
+[22:55:57] [Thread-12/INFO]: [MarriageMaster] Priests loaded
+[22:55:57] [Thread-12/INFO]: [MarriageMaster] Loading players ...
+[22:55:57] [Thread-12/INFO]: [MarriageMaster] Players loaded
+[22:55:57] [Thread-12/INFO]: [MarriageMaster] Loading marriages into cache ...
+[22:55:57] [Thread-12/INFO]: [MarriageMaster] Marriages loaded into cache
+[22:55:57] [Thread-12/INFO]: [MarriageMaster] Loading homes ...
+[22:55:57] [Thread-12/INFO]: [MarriageMaster] Homes loaded
+[22:55:57] [Server thread/INFO]: [MarriageMaster] [32mItem name language file successfully loaded. Language: english  Author: GeorgH93[0m
+[22:55:57] [Server thread/INFO]: [MarriageMaster] Loading item translations ...
+[22:55:57] [Server thread/INFO]: [MarriageMaster] Finished loading item translations for 828 items.
+[22:55:58] [Server thread/INFO]: [MarriageMaster] [32m Marriage Master has been enabled! [33m :) [0m
+[22:55:58] [Server thread/INFO]: [ServerSigns] Enabling ServerSigns v4.9.0
+[22:55:58] [Server thread/INFO]: [ServerSigns] Unable to load Vault dependency - certain economy and permission features will be disabled
+[22:55:58] [Server thread/INFO]: [ServerSigns] Please download Vault at http://dev.bukkit.org/server-mods/vault/ for Economy and "Permission grant" support.
+[22:55:58] [Server thread/INFO]: [ServerSigns] Unable to load PlaceholderAPI dependency - placeholder features will be disabled
+[22:55:58] [Server thread/INFO]: [ServerSigns] You can download PlaceholderAPI at https://www.spigotmc.org/resources/placeholderapi.6245/
+[22:55:58] [Server thread/INFO]: [ServerSigns] Version 4.9.0 is now enabled.
+[22:55:58] [Server thread/INFO]: [DeadChest] Enabling DeadChest v4.21.1
+[22:55:58] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.2.6
+[22:55:59] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
+[22:55:59] [Server thread/INFO]: [AuraSkills] Successfully registered hook MythicMobs
+[22:55:59] [Server thread/INFO]: [AuraSkills] Loaded 150 config options in 21 ms
+[22:55:59] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_19_R1! Trying to find NMS support
+[22:55:59] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_19_R1' loaded!
+[22:55:59] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
+[22:55:59] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
+[22:56:00] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[22:56:00] [Server thread/INFO]: [Quests] Enabling Quests v5.1.5-b512
+[22:56:00] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_19_R1! Trying to find NMS support
+[22:56:00] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_19_R1' loaded!
+[22:56:00] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'Quests' to create a bStats instance!
+[22:56:00] [Server thread/INFO]: [Quests] Loaded language en-US. Translations via Crowdin
+[22:56:00] [Server thread/INFO]: [Quests] Loading storage implementation: YAML
+[22:56:01] [Server thread/INFO]: Running delayed init tasks
+[22:56:01] [Server thread/INFO]: [voicechat] Loading plugins
+[22:56:01] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[22:56:01] [Server thread/INFO]: [voicechat] Initializing plugins
+[22:56:01] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[22:56:01] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[22:56:01] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[22:56:01] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[22:56:01] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 301 total sources
+[22:56:01] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
+[22:56:01] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
+[22:56:01] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
+[22:56:01] [Server thread/INFO]: [AuraSkills] Loaded 6 menus
+[22:56:01] [Server thread/INFO]: Done (21.078s)! For help, type "help"
+[22:56:01] [Server thread/INFO]: Timings Reset
+[22:56:02] [Server thread/INFO]: [Quests] Loaded 4 Quest(s), 7 Action(s), 1 Condition(s) and 798 Phrase(s)
+[22:56:02] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.20.1.
+[22:56:02] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
+[22:56:02] [Server thread/INFO]: Gamerule sendCommandFeedback is now set to: false
+[22:57:04] [User Authenticator #0/INFO]: UUID of player Alexterminium is ed6c5568-96fa-38fd-ad29-941150deb41a
+[22:57:04] [Server thread/INFO]: Alexterminium joined the game
+[22:57:04] [Server thread/INFO]: Alexterminium[/127.158.173.131:45971] logged in with entity id 159 at ([world]1400.323355974541, 80.0, 1010.9751018489316)
+[22:58:05] [Server thread/INFO]: Alexterminium has made the advancement [Ol' Betsy]
+[22:58:05] [Server thread/INFO]: Alexterminium has made the advancement [Take Aim]
+[23:01:23] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/1043, uuid='7096f0d7-5847-4441-9e0e-6715ebf4f3e8', l='ServerLevel[world]', x=1420.03, y=51.00, z=1006.97, cpos=[88, 62], tl=443, v=true] died: Skeletal Knight suffocated in a wall

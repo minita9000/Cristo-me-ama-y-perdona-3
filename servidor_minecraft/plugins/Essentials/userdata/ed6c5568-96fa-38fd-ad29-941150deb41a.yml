@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.158.173.131
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1733432940613
+  login: 1733439424921
+money: '0'
+last-account-name: Alexterminium
+lastlocation:
+  world: 6645f3f9-bc6b-4635-9e64-647695819d10
+  world-name: world
+  x: 1500.5
+  y: 100.0
+  z: 1500.5
+  yaw: 160.344970703125
+  pitch: -62.400001525878906
+logoutlocation:
+  world: 6645f3f9-bc6b-4635-9e64-647695819d10
+  world-name: world
+  x: 1400.323355974541
+  y: 80.0
+  z: 1010.9751018489316
+  yaw: -94.92606353759766
+  pitch: 3.399880886077881
