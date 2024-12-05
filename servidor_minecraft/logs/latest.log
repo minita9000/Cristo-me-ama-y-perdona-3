@@ -319,3 +319,5 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [23:22:49] [Server thread/INFO]: Alexterminium issued server command: /createjail lal
 [23:23:03] [Server thread/INFO]: Alexterminium issued server command: /quests:quests
 [23:23:24] [Server thread/INFO]: Alexterminium issued server command: /quests editor
+[23:34:54] [Server thread/INFO]: Alexterminium issued server command: /kill *
+[23:34:54] [Server thread/INFO]: Alexterminium died
