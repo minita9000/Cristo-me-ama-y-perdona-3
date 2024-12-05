@@ -296,3 +296,13 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [22:58:05] [Server thread/INFO]: Alexterminium has made the advancement [Ol' Betsy]
 [22:58:05] [Server thread/INFO]: Alexterminium has made the advancement [Take Aim]
 [23:01:23] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/1043, uuid='7096f0d7-5847-4441-9e0e-6715ebf4f3e8', l='ServerLevel[world]', x=1420.03, y=51.00, z=1006.97, cpos=[88, 62], tl=443, v=true] died: Skeletal Knight suffocated in a wall
+[23:07:59] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/2730, uuid='792f5cc3-69a4-4c05-b5a6-0b6dfd1d2480', l='ServerLevel[world]', x=1213.50, y=46.00, z=873.50, cpos=[75, 54], tl=447, v=true] died: Skeletal Knight suffocated in a wall
+[23:09:46] [Server thread/INFO]: Alexterminium issued server command: /quest
+[23:09:46] [Server thread/INFO]: [Quests] Loaded language es-ES. Translations via Crowdin
+[23:09:52] [Server thread/INFO]: Alexterminium issued server command: /questadmin
+[23:11:38] [Server thread/INFO]: Alexterminium issued server command: /quest
+[23:11:46] [Server thread/INFO]: Alexterminium issued server command: /quests:quest
+[23:11:52] [Server thread/INFO]: Alexterminium issued server command: /quests:questadmin
+[23:12:33] [Server thread/INFO]: Alexterminium issued server command: /quest
+[23:12:37] [Server thread/INFO]: Alexterminium issued server command: /quest Catch Fish
+[23:13:19] [Server thread/INFO]: Alexterminium issued server command: /quest Mob Hunter
