@@ -1,1 +1,67 @@
-chestData: []
+chestData:
+- ==: ChestData
+  playerUUID: ed6c5568-96fa-38fd-ad29-941150deb41a
+  holographicTimer: world;1397.5;64.79999995231628;1669.5
+  worldName: world
+  as_timer_id: b538ccd5-2beb-442e-a348-b37250dfdff9
+  playerName: Alexterminium
+  isRemovedBlock: false
+  isInfinity: false
+  as_owner_id: a1e9d2c0-c1e8-47e3-a02f-74357e5c4c83
+  chestDate: 2024-12-05T23:55:45.950Z
+  xpStored: 0
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"§eBackpack"}'
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: ed57ebc5-704e-3ba1-8e1a-1e774d884533
+        properties:
+        - name: textures
+          value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0=
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  chestLocation: world;1397.0;64.0;1669.0
